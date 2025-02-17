@@ -44,7 +44,7 @@ body {
 	height: 200px;
 	width: 200px;
 	cursor: pointer;
-	margin-top: -50px;
+	justify-content: center;
 }
 	
 .sale {
@@ -85,7 +85,6 @@ body {
 	text-decoration: line-through;
 	color: var(--main-color);
 	font-size: 20px;
-	padding-left: 40px;
 }
 
 .two {
@@ -95,7 +94,8 @@ body {
 }
 
 .price {
-	padding-left: 180px;
+ width: 100%;
+ text-align: end;
 }
 
 .info {
